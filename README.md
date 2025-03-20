@@ -63,12 +63,7 @@ To design and simulate a 4:1 Multiplexer (MUX) using Verilog HDL in four differe
 ### 4:1 MUX Gate-Level Implementation
 ```verilog
 module mux4_to_1_gate (
-    input wire A,
-    input wire B,
-    input wire C,
-    input wire D,
-    input wire S0,
-    input wire S1,
+    input wire A,B,C,D,S0,S1,
     output wire Y
 );
     wire not_S0, not_S1;
